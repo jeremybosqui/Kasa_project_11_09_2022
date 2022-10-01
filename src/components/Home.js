@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Home() {
     return (
         <div>
@@ -7,6 +8,9 @@ function Home() {
             <h1>
                 ta mere la tchoin
             </h1>
+            <p>
+
+            </p>
         </div>
     )
 
