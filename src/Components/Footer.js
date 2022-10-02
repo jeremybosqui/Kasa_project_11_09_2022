@@ -1,11 +1,14 @@
 import React from "react";
+import logoFooter from"../Assets/logoFooter.svg"
+
+
 
 function Footer() {
     return (
         <div>
-            <h2>Home</h2>
+            <img src={logoFooter} alt="logo_footer"/>
             <h1>
-                ta mere la tchoin zeifhezojfezpofjez
+                © 2020 Kasa. All rights reserved
             </h1>
         </div>
     )

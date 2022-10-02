@@ -1,8 +1,16 @@
 import React from "react";
+import Banner from "../Components/Banner";
+import "../Styles/About.scss"
+
+
 
 function About() {
     return (
         <div>
+            <Banner />
+            <div className="SecndMainDivImg">
+                <div className="ClimbTwo"></div>
+            </div>
             <h2>About</h2>
             <h1>
                 ton pere le luc skywokerler

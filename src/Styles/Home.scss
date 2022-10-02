@@ -1,0 +1,14 @@
+
+/*ajout de l'image en scss pour pouvoir la centrer comme sur la maquette*/
+.ClimbOne {
+  background: center 20% url(../Assets/bannerdeuxio.png);
+  background-size: cover;
+  width: 1250px;
+  height: 250px;
+  border-radius: 25px;
+  filter: contrast(80%) contrast(102%);
+}
+.MainDivImg {
+  display: flex;
+  justify-content: center;
+}
