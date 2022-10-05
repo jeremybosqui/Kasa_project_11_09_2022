@@ -13,3 +13,63 @@ body {
   display: flex;
   justify-content: center;
 }
+
+
+.background_title {
+  width: 90%;
+  /* height: 223px; */
+  margin-bottom: 48px;
+  mix-blend-mode: darken;
+  opacity: 0.5;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  margin-left: 135px;
+
+}
+
+.title_img img {
+  /* position: relative;  */
+  z-index: -1;
+  object-fit: cover;
+  border-radius: 25px;
+  width: 94%;
+}
+
+.bgd {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  /* left: 0;
+  top: 0; */
+  margin: auto;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+  border-radius: 25px;
+}
+.MainDivAbout {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  &_DropdownContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  &_MainContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+.center {
+  display: flex;
+  justify-content: center;
+  margin-left: 6.3rem;
+}
+
+

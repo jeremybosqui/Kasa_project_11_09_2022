@@ -6,23 +6,29 @@ import "../Styles/Banner.scss"
 function Banner () {
     return (
         <div>
-            {/*build de la banner avec le logo qui est un lien clickable vers le home page et des autres liens dans une nav qui renvoie à chacune des pages dédié*/}
-            <Link to="/">
-                <img src={logo} alt="logo_kasa" className="Kasa_logo"/>
-            </Link>
-            <nav className="Kasa_Nav">
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                        <Link to="/error">Not Found</Link>
-                    </li>
-                </ul>
-            </nav>
+            <div>
+                <div>
+                    {/*build de la banner avec le logo qui est un lien clickable vers le home page et des autres
+                    liens dans une nav qui renvoie à chacune des pages dédié*/}
+                    <Link to="/">
+                        <img src={logo} alt="logo_kasa" className="Kasa_logo"/>
+                    </Link>
+                </div>
+                <div>
+                    <nav className="Kasa_Nav">
+                            <li>
+                                <Link to="/">Home</Link>
+                            </li>
+                            <li>
+                                <Link to="/about">About</Link>
+                            </li>
+                            <li>
+                                <Link to="/error">Not Found</Link>
+                            </li>
+                    </nav>
+                </div>
+            </div>
+            <h1>Chez vous, partout et ailleurs</h1>
         </div>
     )
 }
