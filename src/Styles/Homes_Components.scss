@@ -1,0 +1,30 @@
+.LocationLinks{
+  text-decoration: none;
+  &_Card {
+    width: 340px;
+    height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 25px;
+  }
+  &_Title {
+    margin-top: auto;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 2;
+    color: white;
+    height: 52px;
+    width: 250px;
+    Left: 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+  }
+}
+// initier le responsive @media
+@media (max-width: 375px) {
+
+}
+
+
+

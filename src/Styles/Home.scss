@@ -12,3 +12,18 @@
   display: flex;
   justify-content: center;
 }
+.MainDivHomes {
+  width: 90%;
+  background: #F7F7F7;
+  border-radius: 25px;
+  &_Infos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+}
+.BigBossMain {
+  display: flex;
+  justify-content: center;
+}
