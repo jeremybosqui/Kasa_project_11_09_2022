@@ -1,7 +1,10 @@
 import React from "react";
 import Banner from "../Components/Banner";
 import "../Styles/About.scss"
-
+/*import {LoremIpsum} from "lorem-ipsum" ;
+* cet import est non fonctionnel dans cette version j'utilise donc le test du lorem directement via implementation
+* intégré de l'IDE "generate text"
+* */
 
 
 function About() {

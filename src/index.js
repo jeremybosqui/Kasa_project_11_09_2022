@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Styles/index.scss';
-import App from './App';
+import App from './App'; // importer App.js qui contient le visuel et les routes de toutes les pages
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
