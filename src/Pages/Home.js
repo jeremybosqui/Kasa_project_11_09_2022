@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Banner from "../Components/Banner";
-import HomesComponents from "../Components/HomesComponents";
+import HomesComponents from "../Components/Homes_Components/HomesComponents";
 import "../Styles/Home.scss"
 import Footer from "../Components/Footer";
 
@@ -24,12 +24,14 @@ function Home() {
     return (
         <div>
             <Banner />
+            <h1 className="BannerTitle" >Chez vous, partout et ailleurs</h1>
             <div className="MainDivImg">
                 {/*ajout de l'image en scss pour pouvoir la centrer comme sur la maquette*/}
                 <div className="ClimbOne"></div>
             </div>
-            <h2>Home</h2>
-            {/*instancier le rendu visuel des locations en utilisant la methode map qui permet de boucler sur les toutes les locations présente dans le fichier json et je les affiche en important mon composant HomesComponents qui boucle sur les pictures présent dans le fichier json*/}
+            {/*instancier le rendu visuel des locations en utilisant la methode map qui permet de boucler sur
+            les toutes les locations présente dans le fichier json et je les affiche en important mon composant
+            HomesComponents qui boucle sur les pictures présent dans le fichier json*/}
             <div className="BigBossMain">
                 <div className="MainDivHomes">
                     <div className="MainDivHomes_Infos">
@@ -39,7 +41,6 @@ function Home() {
                     </div>
                 </div>
             </div>
-
             <Footer />
         </div>
 

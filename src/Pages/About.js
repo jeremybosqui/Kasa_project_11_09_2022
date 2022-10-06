@@ -1,8 +1,8 @@
 import React from 'react';
-import Dropdown from "../Components/DropDown";
+import Dropdown from "../Components/About_Components/DropDown";
 import "../Styles/About.scss"
 import Banner from "../Components/Banner";
-import {stockData} from "../Components/AboutText";
+import {stockData} from "../Components/About_Components/AboutText";
 import Footer from "../Components/Footer";
 
 

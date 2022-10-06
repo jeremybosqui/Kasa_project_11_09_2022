@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Styles/Homes_Components.scss"
+import "../../Styles/Homes_Components.scss"
 
 function HomesComponents (props) {
     return (

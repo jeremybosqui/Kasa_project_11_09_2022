@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import Chevron from "./Chevron";
-import "../Styles/DropDown.scss"
+import "../../Styles/DropDown.scss"
 
 function Dropdown(props) {
     const [setActive, setActiveState] = useState("");

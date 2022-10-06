@@ -6,7 +6,7 @@
   width: 1250px;
   height: 250px;
   border-radius: 25px;
-  filter: contrast(80%) contrast(102%);
+  filter : brightness(65%);
 }
 .MainDivImg {
   display: flex;
@@ -14,7 +14,7 @@
 }
 .MainDivHomes {
   width: 90%;
-  background: #F7F7F7;
+  background: #F2F2F2;
   border-radius: 25px;
   &_Infos {
     display: flex;
@@ -26,4 +26,14 @@
 .BigBossMain {
   display: flex;
   justify-content: center;
+}
+.BannerTitle {
+  color : whitesmoke;
+  position: relative;
+  top: 190px;
+  z-index: 1;
+  left: 315px;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
 }

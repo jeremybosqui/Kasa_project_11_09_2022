@@ -16,6 +16,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
         },
         "rating": "5",
+        "ratingless" : "0",
         "location": "Ile de France - Paris 17e",
         "equipments": [
             "Équipements de base",
@@ -47,6 +48,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
         },
         "rating": "4",
+        "ratingless" : "1",
         "location": "Ile de France - Paris 10e",
         "equipments": [
             "Parking",
@@ -78,6 +80,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
         },
         "rating": "3",
+        "ratingless" : "2",
         "location": "Ile de France - Paris 20e",
         "equipments": [
             "Wi-fi",
@@ -107,6 +110,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
         },
         "rating": "3",
+        "ratingless" : "2",
         "location": "Ile de France - Paris 11e",
         "equipments": [
             "Micro-Ondes",
@@ -140,6 +144,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
         },
         "rating": "5",
+        "ratingless" : "0",
         "location": "Ile de France - Paris 10e",
         "equipments": [
             "Frigo Américain",
@@ -170,6 +175,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg"
         },
         "rating": "5",
+        "ratingless" : "0",
         "location": "Ile de France - Paris 18e",
         "equipments": [
             "Chambre Séparée",
@@ -197,6 +203,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
         },
         "rating": "3",
+        "ratingless" : "2",
         "location": "Ile de France - Paris 18e",
         "equipments": [
             "Salle de bains",
@@ -230,6 +237,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-5.jpg"
         },
         "rating": "5",
+        "ratingless" : "0",
         "location": "Ile de France - Paris 6e",
         "equipments": [
             "Wi-fi",
@@ -263,6 +271,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
         },
         "rating": "4",
+        "ratingless" : "1",
         "location": "Ile de France - Paris 14e",
         "equipments": [
             "Climatisation",
@@ -293,6 +302,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
         },
         "rating": "3",
+        "ratingless" : "2",
         "location": "Ile de France - Paris 11e",
         "equipments": [
             "Vue Parc",
@@ -325,6 +335,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-7.jpg"
         },
         "rating": "4",
+        "ratingless" : "1",
         "location": "Ile de France - Paris 11e",
         "equipments": [
             "Clic-clac",
@@ -354,6 +365,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
         },
         "rating": "3",
+        "ratingless" : "2",
         "location": "Ile de France - Paris 3e",
         "equipments": [
             "Rangements",
@@ -388,6 +400,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
         },
         "rating": "5",
+        "ratingless" : "0",
         "location": "Ile de France - Ecouen",
         "equipments": [
             "SDB",
@@ -419,6 +432,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
         },
         "rating": "4",
+        "ratingless" : "1",
         "location": "Ile de France - Arnouville",
         "equipments": [
             "SDB",
@@ -453,6 +467,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
         },
         "rating": "3",
+        "ratingless" : "2",
         "location": "Ile de France - Arnouville",
         "equipments": [
             "Bouilloire",
@@ -489,6 +504,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
         },
         "rating": "3",
+        "ratingless" : "2",
         "location": "Ile de France - La Défense",
         "equipments": [
             "Baie vitrée",
@@ -522,6 +538,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
         },
         "rating": "4",
+        "ratingless" : "1",
         "location": "Ile de France - Levallois",
         "equipments": [
             "Télévision",
@@ -549,6 +566,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
         },
         "rating": "2",
+        "ratingless" : "3",
         "location": "Ile de France - Paris 20e",
         "equipments": [
             "Bouilloire",
@@ -575,6 +593,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-11.jpg"
         },
         "rating": "4",
+        "ratingless" : "1",
         "location": "Ile de France - Paris 13e",
         "equipments": [
             "Équipements de base",
@@ -602,6 +621,7 @@
             "picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
         },
         "rating": "4",
+        "ratingless" : "1",
         "location": "Ile de France - Paris 13e",
         "equipments": [
             "Wi-fi",
