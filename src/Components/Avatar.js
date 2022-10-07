@@ -1,22 +1,19 @@
-import React from "react";
+import React from 'react';
 import "../Styles/Avatar.scss"
 
+function Avatar(props){
+    return (
 
-function Avatar (props) {
-    /*return (
-        <div>
-            <div>
+        <div className="avatar-container">
+            <div className="avatar-name">
                 <p>{props.name}</p>
             </div>
-            <div>
-                <img src={props.picture} alt="host_avatar"/>
+            <div className="avatar-main">
+                <img src={props.picture} alt="picture_owner"></img>
             </div>
         </div>
-    ) */
 
-
-
-
+    )
 
 }
 

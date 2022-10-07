@@ -21,7 +21,7 @@ function Dropdown(props) {
 
     return (
         <div className="dropdown_section">
-            <button className={`dropdown_section_toggle ${setActive}`} onClick={toggleDropdown}>
+            <button className={`dropdown_section_toggle ${setActive}`}  onClick={toggleDropdown}>
                 <p className="dropdown_section_title">{props.title}</p>
                 <Chevron className={`${setRotate}`} width={10} fill={"white"} />
             </button>
@@ -30,7 +30,9 @@ function Dropdown(props) {
                 style={{ maxHeight: `${setHeight}` }}
                 className="dropdown_section_content"
             >
-                <div><p className="dropdown_section_text">{props.content}</p></div>
+                <div>
+                    <p className="dropdown_section_text">{props.content}</p>
+                </div>
             </div>
         </div>
     );

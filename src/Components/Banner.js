@@ -6,7 +6,7 @@ import "../Styles/Banner.scss"
 function Banner () {
     return (
         <div>
-            <div>
+            <div className="BannerDiv">
                 <div>
                     {/*build de la banner avec le logo qui est un lien clickable vers le home page et des autres
                     liens dans une nav qui renvoie à chacune des pages dédié*/}

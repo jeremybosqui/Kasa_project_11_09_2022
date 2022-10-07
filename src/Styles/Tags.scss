@@ -1,0 +1,33 @@
+.tag {
+  background: #FF6060;
+  border-radius: 10px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  /* line-height: 142.6%; */
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.tag-content {
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+@media (max-width: 375px) {
+  .tag {
+    width: 87px;
+    height: 23.5px;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    line-height: 8px;
+  }
+
+}

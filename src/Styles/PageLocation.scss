@@ -1,0 +1,153 @@
+.slideshow_location {
+  margin-top: 35px;
+}
+
+.slideshow_location img{
+  border-radius: 30px;
+  width: 100%;
+  height: 415px;
+  object-fit: cover;
+  filter: brightness(85%);
+}
+.MainSubContent {
+  display: flex;
+  width: 100%;
+}
+.BigContent {
+  padding: 0 0px;
+  width: 100%;
+  max-width: 1520px;
+  margin: 0px auto;
+  &_PartOne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  &_Main {
+    display: flex;
+    flex-direction: column;
+  }
+  &_TitleHost {
+    display: flex;
+    padding: 0 60px;
+    &_Text {
+      width: 1050px;
+    }
+  }
+  &_Tags {
+    display: flex;
+    padding: 0 60px;
+  }
+}
+
+
+.main-container-stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-container-accordion {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 3.5%;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.accordion-container-right {
+  margin-right: -16%;
+  width: 100%;
+}
+.accordion-container-left {
+  width: 100%;
+}
+
+.title_locationpage {
+  left: 6.94%;
+  right: 48.96%;
+  top: 55.96%;
+  bottom: 39.06%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 142.6%;
+  display: flex;
+  align-items: flex-end;
+  color: #FF6060;
+  margin-left: 108px;
+}
+
+.subtitle_locationpage {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142.6%;
+  display: flex;
+  align-items: flex-end;
+  color: #FF6060;
+  margin-left: 108px;
+  margin-top: -25px;
+}
+
+
+@media (max-width: 375px) {
+
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-left: 6%;
+    width: 85%;
+  }
+
+  .location_subheader {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    /* margin-left: 22%; */
+  }
+
+  .location_header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .title_locationpage {
+    font-size: 18px;
+    line-height: 142.6%;
+    margin-left: -10px;
+    margin-bottom: 30px;
+  }
+
+  .subtitle_locationpage {
+    font-size: 14px;
+    margin-left: -10px;
+  }
+
+  .main-container-tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+
+  .main-container-accordion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .accordion-container-left {
+    margin-left: 15%;
+    margin-bottom: 5%;
+  }
+}
+
