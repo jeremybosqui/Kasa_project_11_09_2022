@@ -1,0 +1,57 @@
+@import "Utils";
+.slideshow {
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  border-radius: 26px;
+}
+
+.slideshow-container {
+  display: flex;
+  //transition: transform .5s ease;
+}
+
+.slideshow-container-img {
+  flex-shrink: 0;
+}
+
+.slideshow-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  width: calc(100% - 30px);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.chevron {
+  width: 30px !important;
+  cursor: pointer;
+  height: auto !important;
+  transition: transform 0.2s;
+  &:hover{
+    transform: scale(1.5);
+    /*color: $primarycolor;*/
+  }
+}
+
+.slideshow-idx {
+  position: absolute;
+  color: white;
+  text-align: center;
+  bottom: 10px;
+  width: 100%;
+  font-weight: bold;
+}
+
+
+@media (max-width: 375px) {
+
+  .slideshow-idx {
+    display: none;
+  }
+
+}

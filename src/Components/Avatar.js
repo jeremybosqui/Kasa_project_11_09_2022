@@ -6,7 +6,7 @@ function Avatar(props){
 
         <div className="avatar-container">
             <div className="avatar-name">
-                <p>{props.name}</p>
+                <div>{props.name}</div>
             </div>
             <div className="avatar-main">
                 <img src={props.picture} alt="picture_owner"></img>

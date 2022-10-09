@@ -7,7 +7,7 @@ body {
   width: 1250px;
   height: 250px;
   border-radius: 25px;
-  filter: contrast(80%) contrast(102%);
+  filter : brightness(85%);
 }
 .SecndMainDivImg {
   display: flex;
@@ -42,6 +42,7 @@ body {
   display: flex;
   justify-content: center;
   margin-left: 6.3rem;
+  margin-bottom: 80px;
 }
 
 

@@ -1,0 +1,27 @@
+@import "Utils";
+.MainDiv {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+&_Four {
+  font-size: 190px;
+  font-weight: 700;
+  color: $textcolor;
+}
+&_Oups, a {
+  color: $textcolor;
+}
+&_Oups {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 200px;
+}
+
+
+
+
+
+}

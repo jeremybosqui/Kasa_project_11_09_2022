@@ -11,7 +11,7 @@ function Footer() {
                 <div className="ImgFooterDiv_BigDiv">
                     <Link to="/"><img src={logoFooter} alt="logo_footer" className="ImgFooterDiv_Img"/></Link>
                 </div>
-                <p>© 2020 Kasa. All rights reserved</p>
+                <div>© 2020 Kasa. All rights reserved</div>
             </div>
 
         </div>

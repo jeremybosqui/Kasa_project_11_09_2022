@@ -1,8 +1,44 @@
-.Kasa_logo {
-  width: 200px;
-  height: 200px;
-}
+@import "Utils";
 .BannerDiv {
-  padding: 0px 80px;
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  &_Kasa_logo {
+    width: 200px;
+    height: 200px;
+  }
+  &_Kasa_Nav {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  &_Links {
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    margin-left: 60px;
+  }
+  &_MainNav {
+   margin-top: 25px;
+  }
 }
 
+/*.nav-bar-link a {
+      border-radius: 4px;
+      padding: 6px 10px;
+      margin-right: 10px;
+      color: $textcolor;
+    }*/
+
+/*.nav-bar-link a.active {
+  color: $textcolor;
+  background: $bgcards;
+  text-decoration: underline;
+}*/
+/*.bg-salmon {
+  background-color: salmon;
+  color: white;
+}*/

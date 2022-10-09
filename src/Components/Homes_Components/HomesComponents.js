@@ -12,7 +12,7 @@ function HomesComponents (props) {
 
                     { backgroundImage:`url(${props.location["cover"]})`}
                 }>
-                    <p className="LocationLinks_Title">{props.location.title}</p>
+                    <div className="LocationLinks_Title">{props.location.title}</div>
                 </div>
             </Link>
         </div>

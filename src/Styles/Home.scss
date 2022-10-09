@@ -6,7 +6,9 @@
   width: 1250px;
   height: 250px;
   border-radius: 25px;
+  /*box-shadow: rgba(0, 0, 0, 0.7) 0px -50px 40px inset;*/
   filter : brightness(65%);
+  margin-top: -120px;
 }
 .MainDivImg {
   display: flex;
@@ -32,12 +34,15 @@
   justify-content: center;
 }
 .BannerTitle {
-  color : whitesmoke;
-  position: relative;
-  top: 190px;
-  z-index: 1;
-  left: 315px;
-  font-size: 50px;
-  font-weight: 500;
+  position: absolute;
+  width: 100%;
+  margin: 60px 0;
+  text-align: center;
+  top: 220px;
+  left: 0;
+  font-size: 48px;
+  font-weight: 300;
   font-family: Montserrat, sans-serif;
+  color: white;
+  z-index: 2;
 }

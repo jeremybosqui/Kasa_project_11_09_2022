@@ -1,10 +1,9 @@
-/* STYLE ACCORDION SECTION */
+
 .accordionlocation__section {
   display: flex;
   flex-direction: column;
 }
 
-/* STYLE BUTTON */
 .accordionlocation {
   width: 500px;
   height: 52px;
@@ -17,10 +16,9 @@
   align-items: center;
   border: none;
   outline: none;
-  /* transition: background-color 0.6s ease; */
+
 }
 
-/* STYLE CONTENT TITLE */
 .accordionlocation__title {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -28,18 +26,15 @@
   text-align: left;
 }
 
-/* STYLE CHEVRON */
 .accordionlocation__icon {
   margin-left: auto;
   transition: transform 0.6s ease;
 }
 
-/* ROTATION */
 .rotate {
   transform: rotate(90deg);
 }
 
-/* STYLE ACCORDION PANEL */
 .accordionlocation__content {
   background-color: #F6F6F6;
   overflow: auto;
@@ -51,7 +46,6 @@
   border-radius: 10px;
 }
 
-/* STYLE TEXT */
 .accordionlocation__text {
   color: #FF6060;
   font-family: "Montserrat", sans-serif;
@@ -75,7 +69,6 @@
     text-align: left;
   }
 
-  /* STYLE ACCORDION PANEL */
   .accordionlocation__content {
     width: 335px;
   }

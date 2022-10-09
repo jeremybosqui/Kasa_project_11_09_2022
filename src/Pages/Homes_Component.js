@@ -5,12 +5,13 @@ import { useParams } from "react-router-dom";
 import DropDown from "../Components/About_Components/DropDown";
 import Avatar from "../Components/Avatar";
 import Tag from "../Components/Tags"
-import Slideshow from "../Components/Carrousel";
+import Carrousel from "../Components/Carrousel";
 import Banner from "../Components/Banner";
 import Rates from "../Components/Rate_Stars";
 //import Rates from "../Components/Rate_Stars";
 
 import "../Styles/PageLocation.scss"
+import Footer from "../Components/Footer";
 
 
 export default function LocationPage() {
@@ -40,7 +41,7 @@ export default function LocationPage() {
             <Banner />
             <div className="body_location_page">
                 <div className="slideshow_location">
-                    <Slideshow img={location.pictures}/>
+                    <Carrousel img={location.pictures}/>
                 </div>
 
                 <div className="BigContent_PartOne">
@@ -80,9 +81,9 @@ export default function LocationPage() {
                             // style = {widthDiv}
                             title="Equipement"
                             content={
-                                <ul>
-                                    {location.equipments.map((equipment) => <li key={equipment}>{equipment}</li>)}
-                                </ul>
+                                <div>
+                                    {location.equipments.map((equipment) => <div key={equipment}>{equipment}</div>)}
+                                </div>
                             }
                         />
 
