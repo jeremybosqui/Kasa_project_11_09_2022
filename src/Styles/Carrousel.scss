@@ -1,57 +1,46 @@
 @import "Utils";
-.slideshow {
+
+
+.MainDivCarrousel {
   overflow: hidden;
   width: 90%;
   margin: auto;
   position: relative;
   border-radius: 26px;
+  &_Container {
+    display: flex;
+    transition: all 1s ease-in-out;
+  }
+  &_Img {
+    flex-shrink: 0;
+  }
+  &_Controls {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    width: calc(100% - 30px);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  &_Index {
+    position: absolute;
+    color: white;
+    text-align: center;
+    bottom: 10px;
+    width: 100%;
+    font-weight: bold;
+  }
 }
-
-.slideshow-container {
-  display: flex;
-  //transition: transform .5s ease;
-}
-
-.slideshow-container-img {
-  flex-shrink: 0;
-}
-
-.slideshow-controls {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  display: flex;
-  width: calc(100% - 30px);
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10px;
-}
-
 .chevron {
   width: 30px !important;
+  color: white;
   cursor: pointer;
   height: auto !important;
-  transition: transform 0.2s;
+  transition: all 0.6s ease-in-out;
   &:hover{
-    transform: scale(1.5);
+    color: $primarycolor;
+    transform: scale(1.9) rotateX(3.142rad);
     /*color: $primarycolor;*/
   }
-}
-
-.slideshow-idx {
-  position: absolute;
-  color: white;
-  text-align: center;
-  bottom: 10px;
-  width: 100%;
-  font-weight: bold;
-}
-
-
-@media (max-width: 375px) {
-
-  .slideshow-idx {
-    display: none;
-  }
-
 }

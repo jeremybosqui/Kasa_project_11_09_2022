@@ -4,7 +4,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Error from "../Pages/Error";
-import LocationPage from "../Pages/Homes_Component";
+import LocationPage from "../Pages/HomesLocation";
 // instancier la fonction route en utilisant Router via l'import dans le react-router-dom et l'importer dans la view page qui est App.js et vérifier avec l'index.js que le rendu est bon sinon utiliser directement la page Router.js en rendu à la place de l'import effectué dans App.js
 function RouterApp() {
     return (

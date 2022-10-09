@@ -3,15 +3,14 @@ import { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom";
 
 import DropDown from "../Components/About_Components/DropDown";
-import Avatar from "../Components/Avatar";
-import Tag from "../Components/Tags"
-import Carrousel from "../Components/Carrousel";
+import Avatar from "../Components/Homes_Page_Components/Avatar";
+import Tag from "../Components/Homes_Page_Components/Tags"
+import Carrousel from "../Components/Homes_Page_Components/Carrousel";
 import Banner from "../Components/Banner";
-import Rates from "../Components/Rate_Stars";
+import Rates from "../Components/Homes_Page_Components/Rate_Stars";
 //import Rates from "../Components/Rate_Stars";
-
-import "../Styles/PageLocation.scss"
-import Footer from "../Components/Footer";
+import "../Styles/HomesLocation.scss"
+/*import Footer from "../Components/Footer";*/
 
 
 export default function LocationPage() {
@@ -34,8 +33,6 @@ export default function LocationPage() {
             })
     },[id]);
 
-    //const widthDiv = {width : '50%'}
-
     return (
         <div className="BigContent">
             <Banner />
@@ -53,7 +50,7 @@ export default function LocationPage() {
                                 <h2 className="">{location.title}</h2>
                                 <p className="">{location.location}</p>
                             </div>
-                            <div className="">
+                            <div className="BigContent_OwnerPart">
                                     <Avatar name={location.host.name} picture={location.host.picture}/>
                                     <Rates rateNum={location.rating} />
                                     {/* <Rates rateNum={location.rating} /> */}
@@ -69,16 +66,15 @@ export default function LocationPage() {
 
                 </div>
 
-                <div className="main-container-accordion">
-                    <div className="accordion-container-left">
+                <div className="BigContent_PartTwo">
+                    <div className="BigContent_PartTwo_Left">
                         <DropDown
                             title="Description"
                             content={location.description}
                         />
                     </div>
-                    <div className="accordion-container-right">
+                    <div className="BigContent_PartTwo_Right">
                         <DropDown
-                            // style = {widthDiv}
                             title="Equipement"
                             content={
                                 <div>

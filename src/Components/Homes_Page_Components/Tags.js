@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Styles/Tags.scss"
+import "../../Styles/Tags.scss"
 
 
 function Tag(props) {

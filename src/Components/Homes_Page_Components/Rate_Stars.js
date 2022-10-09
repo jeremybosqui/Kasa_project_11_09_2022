@@ -1,5 +1,5 @@
-import rating from "../Assets/rating.png"
-import ratingless from "../Assets/ratingless.png"
+import rating from "../../Assets/rating.png"
+import ratingless from "../../Assets/ratingless.png"
 
 
 function Rates({ rateNum }) {
@@ -8,7 +8,7 @@ function Rates({ rateNum }) {
         .concat(Array(5 - rateNum).fill(0));
 
     return (
-        <div>
+        <div className="MainDivRate">
             {rates.map((rate, i) => {
                 return (
                     //utilisation de l'operateur ternaire afin d'initier l'etoile pleine quand il y a rate === 1 ce qui
@@ -20,13 +20,13 @@ function Rates({ rateNum }) {
                             <img src={ratingless} alt="rating_empty" />
                         )}
 					</span>
-                );
+                )
             })}
         </div>
-    );
+    )
 }
 
-export default Rates;
+export default Rates
 
 
 

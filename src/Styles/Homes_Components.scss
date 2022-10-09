@@ -1,3 +1,5 @@
+@import "Utils";
+
 .LocationLinks{
   text-decoration: none;
   &_Card {
@@ -8,7 +10,7 @@
     border-radius: 10px;
     margin: 25px;
     background-size: cover;
-    transition: transform 0.2s;
+    transition: all 1.3s 0.1s;
     box-shadow: rgba(0, 0, 0, 0.7) 0px -50px 40px inset;
     /*filter: brightness(85%);*/
   }
@@ -27,6 +29,14 @@
     font-family: Montserrat, sans-serif;
     font-size: 15px;
   }
+}
+.BigContent {
+  &_TitleHost_Text {
+    color: $textcolor;
+  }
+}
+.body_location_page {
+  margin-top: -100px;
 }
 // initier le responsive @media
 @media (max-width: 375px) {

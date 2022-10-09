@@ -4,6 +4,7 @@ import Banner from "../Components/Banner";
 import HomesComponents from "../Components/Homes_Components/HomesComponents";
 import "../Styles/Home.scss"
 import Footer from "../Components/Footer";
+import ScrollToTop from "../Components/ScrollTop";
 
 
 
@@ -23,6 +24,9 @@ function Home() {
 
     return (
         <div>
+            {/*<button className="scrollToTopBtn">
+                <i className="fa fa-arrow-up" aria-hidden="true"></i>
+            </button>*/}
             <div className="BigContent">
                 <Banner />
                 <h1 className="BannerTitle" >Chez vous, partout et ailleurs</h1>
@@ -44,6 +48,7 @@ function Home() {
                 </div>
 
             </div>
+            <ScrollToTop />
             <Footer />
         </div>
     )
