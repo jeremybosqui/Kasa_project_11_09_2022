@@ -3,13 +3,14 @@
 .MainDivAvatar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
   margin-bottom: 20px;
   &_Name {
     color: $textcolor;
+    margin-right: 10px;
     font-weight: 500;
     font-size: 18px;
+    margin-top: 20px;
   }
   &_Owner {
     margin-top: 20px;
@@ -27,4 +28,18 @@
 }
 
 
+
+// init responsive media
+@media screen and (max-width: 400px) {
+
+  .MainDivAvatar {
+    position: absolute;
+    right: 20px;
+  }
+  .MainDivRate {
+    display: flex;
+
+
+  }
+}
 

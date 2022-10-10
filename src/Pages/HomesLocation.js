@@ -37,7 +37,7 @@ export default function LocationPage() {
         <div className="BigContent">
             <Banner />
             <div className="body_location_page">
-                <div className="slideshow_location">
+                <div className="BigContent_ShowCarrousel">
                     <Carrousel img={location.pictures}/>
                 </div>
 
@@ -47,8 +47,8 @@ export default function LocationPage() {
 
                         <div className="BigContent_TitleHost">
                             <div className="BigContent_TitleHost_Text">
-                                <h2 className="">{location.title}</h2>
-                                <p className="">{location.location}</p>
+                                <h1 className="BigContent_TitleHost_Titre">{location.title}</h1>
+                                <p className="BigContent_TitleHost_SubTitle">{location.location}</p>
                             </div>
                             <div className="BigContent_OwnerPart">
                                     <Avatar name={location.host.name} picture={location.host.picture}/>

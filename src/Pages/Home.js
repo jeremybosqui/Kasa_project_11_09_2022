@@ -29,7 +29,7 @@ function Home() {
             </button>*/}
             <div className="BigContent">
                 <Banner />
-                <h1 className="BannerTitle" >Chez vous, partout et ailleurs</h1>
+                <h1 className="BannerTitle" >Chez vous, <br className="Show"/> partout et ailleurs</h1>
                 <div className="MainDivImg">
                     {/*ajout de l'image en scss pour pouvoir la centrer comme sur la maquette*/}
                     <div className="ClimbOne"></div>

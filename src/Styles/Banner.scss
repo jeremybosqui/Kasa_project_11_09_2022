@@ -42,3 +42,28 @@
   background-color: salmon;
   color: white;
 }*/
+
+@media screen and (max-width: 400px) {
+  .BannerDiv_Kasa_logo {
+    width: 130px;
+    height: 150px;
+  }
+  .BannerDiv {
+    padding: 0 20px;
+    &_Links {
+      text-transform: uppercase;
+      font-size: 15px;
+      margin-left: 10px;
+    }
+    &_MainNav {
+      margin-top: unset;
+    }
+
+  }
+
+
+
+
+
+
+}

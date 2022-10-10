@@ -27,7 +27,7 @@
     width: 230px;
     Left: 20px;
     font-family: Montserrat, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
   }
 }
 .BigContent {
@@ -39,7 +39,20 @@
   margin-top: -100px;
 }
 // initier le responsive @media
-@media (max-width: 375px) {
+@media screen and (max-width: 400px) {
+  .LocationLinks_Card {
+    width: 350px;
+    height: 250px;
+    transition: unset;
+  }
+  .LocationLinks_Title {
+    font-size: 17px;
+  }
+
+
+
+
+
 
 }
 

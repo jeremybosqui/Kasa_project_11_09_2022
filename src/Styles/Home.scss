@@ -1,5 +1,8 @@
 
 /*ajout de l'image en scss pour pouvoir la centrer comme sur la maquette*/
+.Show {
+  display: none;
+}
 .ClimbOne {
   background: center 20% url(../Assets/bannerdeuxio.png);
   background-size: cover;
@@ -14,7 +17,7 @@
   display: flex;
   justify-content: center;
   width: 90%;
-  padding: 0px 65px;
+  padding: 0 65px;
   margin-bottom: 80px;
 }
 .MainDivHomes {
@@ -46,3 +49,52 @@
   color: white;
   z-index: 2;
 }
+
+
+// init responsive media
+@media screen and (max-width: 400px) {
+  .MainDivImg {
+    width: unset;
+    display: unset;
+    justify-content: unset;
+    padding: unset;
+  }
+  .BannerTitle {
+    top: 105px;
+    font-size: 25px;
+    left: 35px;
+    text-align: start;
+    width: unset;
+  }
+  .ClimbOne {
+    width: 380px;
+    height: 120px;
+    margin-left: 10px;
+  }
+  .Show {
+    display: flex;
+  }
+  .BigBossMain {
+    margin-top: 30px;
+  }
+  .MainDivHomes {
+    background: unset;
+    margin-bottom: 0;
+    &_Infos {
+      gap: 0;
+    }
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+

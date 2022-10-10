@@ -12,21 +12,11 @@
   font-size: 11px;
   margin-right: 10px;
   margin-bottom: 20px;
+  padding: 0px 20px 0px 20px;
+  font-weight: 600;
 }
 
 .tag-content {
   margin-top: 6px;
-  font-size: 12px;
-}
-
-@media (max-width: 375px) {
-  .tag {
-    width: 87px;
-    height: 23.5px;
-    text-align: center;
-    align-items: center;
-    font-size: 10px;
-    line-height: 8px;
-  }
-
+  font-size: 15px;
 }

@@ -53,3 +53,24 @@
 }
 
 
+// init media responsive
+
+@media screen and (max-width: 400px) {
+  .dropdown_section_toggle {
+    margin-left: -105px;
+    width: 380px;
+  }
+  .dropdown_section_content {
+    height: 270px;
+    width: 380px;
+    margin-left: -105px;
+  }
+  .dropdown_section_text {
+    font-size: 15px;
+  }
+
+
+
+}
+
+

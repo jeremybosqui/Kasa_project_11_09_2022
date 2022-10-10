@@ -56,7 +56,7 @@ function Banner () {
                     >
                         À Propos
                     </NavLink>
-                    <NavLink
+                    {/*<NavLink
                         className="BannerDiv_Links"
                         to="/error"
                         style={({ isActive }) => ({
@@ -68,7 +68,7 @@ function Banner () {
                         })}
                     >
                         Error
-                    </NavLink>
+                    </NavLink>*/}
                 </div>
             </div>
         </div>

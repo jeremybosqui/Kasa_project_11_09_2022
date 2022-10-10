@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 export default function ScrollToTop() {
-    const [isVisible, setIsVisible] = useState(false);
+    const [isVisible, setIsVisible] = useState(false)
 
     // Top: 0 takes us all the way back to the top of the page
     // Behavior: smooth keeps it smooth!
@@ -9,8 +9,8 @@ export default function ScrollToTop() {
         window.scrollTo({
             top: 0,
             behavior: "smooth"
-        });
-    };
+        })
+    }
 
     useEffect(() => {
         // Button is displayed after scrolling for 500 pixels
@@ -20,12 +20,12 @@ export default function ScrollToTop() {
             } else {
                 setIsVisible(false);
             }
-        };
+        }
 
         window.addEventListener("scroll", toggleVisibility);
 
         return () => window.removeEventListener("scroll", toggleVisibility);
-    }, []);
+    }, [])
 
     return (
         <div className="">
@@ -39,5 +39,5 @@ export default function ScrollToTop() {
                 </div>
             )}
         </div>
-    );
+    )
 }
