@@ -14,7 +14,7 @@ function Error () {
                 {/*<LoremIpsum p={2} />
             le lorem test ne fonctionne pas il ne s'affiche pas dans la page error
             */}
-                <div className="MainDiv_Oups">Oups! La page  que vous demandez n'existe pas.</div>
+                <div className="MainDiv_Oups">Oups! La page  que <br className="show"/> vous demandez n'existe pas.</div>
                 <Link to="/" style={{
                     marginBottom: "100px",
                     fontSize: "20px"

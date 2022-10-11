@@ -90,23 +90,33 @@ body::-webkit-scrollbar {
     margin: auto;
     padding: unset;
     &_PartOne {
-      margin-bottom: 150px;
+      margin-bottom: 170px;
     }
     &_Main {
       width: 100px;
     }
     &_TitleHost_Titre {
-      font-size: 20px;
-      width: 165px;
+      font-size: 17px;
+      width: 200px;
     }
     &_TitleHost_Text {
       margin-left: -40px;
+      width: 160px;
+      margin-bottom: 85px;
+    }
+    &_Tags {
+      margin-left: 15px;
+      padding: unset;
+      position: absolute;
+      bottom: -40px;
     }
     &_TitleHost_SubTitle {
       font-size: 15px;
+      margin-top: unset;
     }
     &_PartTwo {
       width: 100px;
+      margin-top: -110px;
       flex-wrap: wrap;
       flex-direction: column;
       display: flex;
@@ -126,3 +136,10 @@ body::-webkit-scrollbar {
 }
 
 
+// init media responsive
+@media (min-width: 401px)  {
+  .BigContent_TitleHost {
+    flex-wrap: unset;
+  }
+
+}

@@ -62,14 +62,15 @@
   .BannerTitle {
     top: 105px;
     font-size: 25px;
-    left: 35px;
+    left: 40px;
     text-align: start;
     width: unset;
   }
   .ClimbOne {
-    width: 380px;
+    width: 320px;
+    border-radius: 10px;
     height: 120px;
-    margin-left: 10px;
+    margin-left: 25px;
   }
   .Show {
     display: flex;

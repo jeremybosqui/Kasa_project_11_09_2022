@@ -2,6 +2,7 @@
 
 .MainDivAvatar {
   display: flex;
+  margin-left: 20px;
   flex-direction: row;
   align-items: center;
   margin-bottom: 20px;
@@ -26,7 +27,12 @@
 
 
 }
-
+.MainDivRate {
+  margin-left: -25px;
+  img {
+    padding: 0 5px 0 0;
+  }
+}
 
 
 // init responsive media
@@ -34,12 +40,17 @@
 
   .MainDivAvatar {
     position: absolute;
+    bottom: -120px;
     right: 20px;
   }
   .MainDivRate {
+    margin-left: -45px;
+    position: absolute;
     display: flex;
-
-
+    bottom: -70px;
+    img {
+      width: 20px;
+    }
   }
 }
 

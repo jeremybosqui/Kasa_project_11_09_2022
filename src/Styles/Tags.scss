@@ -1,22 +1,31 @@
 .tag {
   background: #FF6060;
   border-radius: 10px;
-  width: 120px;
   height: 30px;
   text-align: center;
-  align-items: center;
   color: #FFFFFF;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: normal;
   font-size: 11px;
   margin-right: 10px;
   margin-bottom: 20px;
-  padding: 0px 20px 0px 20px;
+  padding: 0 20px 0 20px;
   font-weight: 600;
 }
 
 .tag-content {
   margin-top: 6px;
   font-size: 15px;
+}
+
+@media screen and (max-width: 400px) {
+
+  .tag {
+    padding: 0 5px 0 5px;
+  }
+  .tag-content {
+    font-size: 12px;
+  }
+
+
 }
