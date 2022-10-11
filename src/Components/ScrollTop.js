@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
-import "../Styles/ScrollTopBtn.scss"
+import "../Styles/ScrollTopBtn.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import {faChevronUp} from "@fortawesome/free-solid-svg-icons";
-
-library.add(fab, faChevronUp )
+library.add(fab, faChevronUp );
 
 
 
@@ -42,23 +41,23 @@ export default function ScrollToTop() {
                 <div
                     onClick={scrollToTop}
                     className="ButtonScrollTop"
-                    style={{
+                    /*style={{
                         background: "grey",
                         border: "none",
                         borderRadius: "50%",
                         color: "white",
-                        marginLeft: "15px",
+                        boxShadow:"0px 4px 4px rgba(0, 0, 0, 0.25)",
+                        opacity: "0.7",
                         cursor: "pointer",
-                        fontSize: "16px",
+                        fontSize: "30px",
                         lineHeight: "48px",
                         width: "48px",
                         position: "fixed",
-                        bottom: "150px",
-                        right: "1.5px",
-
-                    }}
+                        bottom: "300px",
+                        right: "3.5px",
+                    }}*/
                 >
-                    <FontAwesomeIcon icon={["fas", "chevron-up"]} />
+                    <FontAwesomeIcon icon={["fas", "chevron-up"]}  />
                 </div>
             )}
         </div>

@@ -1,9 +1,58 @@
 .ButtonScrollTop {
-  animation: fadeIn 5s ease-in-out;
+  background: grey;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  box-shadow:0 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 0.7;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 48px;
+  width: 48px;
+  position: fixed;
+  bottom: 300px;
+  right: 3.5px;
 }
-
+/*
 @keyframes fadeIn {
   0%   { opacity:0; }
   50%  { opacity:1; }
+  75%  { opacity:0.5; }
   100% { opacity:0; }
+}*/
+/*.ButtonScrollTOp {
+  !*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*!
+  !*transition: all 1700ms ease-in-out;*!
+
+}*/
+
+/*
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+   margin-left: 8px;
+   margin-top: 2px;
+
+}*/
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  position: relative;
+  margin-left: 8px;
+  top: 2px;
+}
+
+// init responsive media
+@media screen and (max-width: 400px) {
+
+    .ButtonScrollTop {
+      font-size: 15px;
+      line-height: 25px;
+      width: 25px;
+      bottom: 505px;
+      right: 0.8px;
+    }
+
+
+    svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+       margin-left: 4.5px;
+       top: 1.5px;
+    }
+
 }
