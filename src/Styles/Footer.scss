@@ -16,8 +16,8 @@
     width: 200px;
     height: 200px;
   }
-  h1 {
-    margin: unset;
-  }
   color: white;
+  &_content {
+    padding: 20px;
+  }
 }

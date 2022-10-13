@@ -22,7 +22,7 @@ function Footer() {
                         <img src={logoFooter} alt="logo_footer" className="ImgFooterDiv_Img"/>
                     </Link>
                 </div>
-                <div>© 2020 Kasa. All rights reserved</div>
+                <div className="ImgFooterDiv_content">© 2020 Kasa. All rights reserved</div>
             </div>
 
         </div>
