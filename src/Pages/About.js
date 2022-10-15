@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Dropdown from "../Components/About_Components/DropDown";
 import "../Styles/About.scss"
 import Banner from "../Components/Banner";
@@ -7,6 +7,10 @@ import Footer from "../Components/Footer";
 
 
 function About() {
+
+    useEffect(() => {
+        document.title = `KASA / About`
+    })
 
     return (
         <div>
