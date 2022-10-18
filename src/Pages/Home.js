@@ -5,9 +5,6 @@ import HomesComponents from "../Components/Homes_Components/HomesComponents";
 import "../Styles/Home.scss"
 import Footer from "../Components/Footer";
 import ScrollToTop from "../Components/ScrollTop";
-/*import {useLocation} from "react-router-dom";*/
-
-
 
 function Home() {
     const [locations, setLocations] = useState([]);
@@ -22,16 +19,7 @@ function Home() {
             })
     }, [])
 
-    /*// eslint-disable-next-line react-hooks/exhaustive-deps
-    const titles = {
-        '/home': 'Home',
-        '/about': 'About',
-    }
-    const location = useLocation()
-    useEffect(
-        () => (document.title = titles[location.pathname] ?? 'Hello World'),
-        [location, titles],
-    )*/
+
 
     useEffect(() => {
         document.title = `KASA / Home`
@@ -39,9 +27,6 @@ function Home() {
 
     return (
         <div>
-            {/*<button className="scrollToTopBtn">
-                <i className="fa fa-arrow-up" aria-hidden="true"></i>
-            </button>*/}
             <div className="BigContent">
                 <Banner />
                 <h1 className="BannerTitle" >Chez vous, <br className="Show"/> partout et ailleurs</h1>
@@ -61,7 +46,6 @@ function Home() {
                         </div>
                     </div>
                 </div>
-
             </div>
             <ScrollToTop />
             <Footer />

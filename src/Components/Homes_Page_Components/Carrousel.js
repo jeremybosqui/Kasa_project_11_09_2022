@@ -15,7 +15,7 @@ function Carrousel(props){
         if (!slideshowImg) {
             return 0;
         }
-        return slideshowImg.width;
+        return slideshowImg["width"];
     }, onPrev = () => {
         if (slideIdx === 0) {
             setSlideIdx(props.img.length - 1)
@@ -60,14 +60,7 @@ function Carrousel(props){
             ) : ""
             }
             <div className={'MainDivCarrousel_Index'}>{slideIdx + 1} / {props.img.length}</div>
-            {/*{pics.length <= 1 ? (
-                <div
-                    className="photo"
-                    style={{ backgroundImage: `url(${loc.cover})` }}
-                ></div>
-            ) : (
-                true
-            )}*/}
+
         </div>
     );
 }
