@@ -17,7 +17,7 @@ function RouterApp() {
                     <Route path= {"/about"} exact={true} element={<About title="About"  />} />
                     <Route path= {"/"}  exact={true} element={<Home />} />
                     <Route path= {"*"} element={<Error />} />
-                    <Route path= {"/locations/:id"} exact={true}  element={<LocationPage />} />
+                    <Route path= {"/locations/:id/*"} exact={true}  element={<LocationPage />} />
                 </Routes>
         </BrowserRouter>
     );

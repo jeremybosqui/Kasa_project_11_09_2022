@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { useParams } from "react-router-dom";
+import {useParams} from "react-router-dom";
 import DropDown from "../Components/About_Components/DropDown";
 import Avatar from "../Components/Homes_Page_Components/Avatar";
 import Tag from "../Components/Homes_Page_Components/Tags"
@@ -98,6 +98,7 @@ export default function LocationPage() {
             <>
                 {
                     <Error />
+
 
                 }
             </>
